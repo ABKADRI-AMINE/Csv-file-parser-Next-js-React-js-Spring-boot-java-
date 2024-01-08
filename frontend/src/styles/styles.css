@@ -1,0 +1,127 @@
+body {
+  font-family: 'Rubik Maps', sans-serif;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  background-color: #87CEEB;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #8f6154;
+  color: #fff;
+  border-color: #54878f;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button-container button {
+  margin: 0 5px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+label {
+  cursor: pointer;
+  background-color: #7bc0a3;
+  color: #fff;
+  padding: 10px 20px;
+  border: 2px solid #7bc0a3;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+label:hover {
+  background-color: #54878f;
+  border-color: #54878f;
+}
+
+.container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.table-employees,
+.table-salaries {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.table-employees th,
+.table-employees td,
+.table-salaries th,
+.table-salaries td {
+  border: 2px solid #000;
+  border-width: 2px 1px;
+  padding: 10px;
+  text-align: left;
+}
+
+.table-employees th,
+.table-salaries th {
+  font-weight: bold;
+}
+
+.table-employees th,
+.table-employees td:nth-child(1),
+.table-salaries td:nth-child(1) {
+  background-color: #54878f;
+  color: #fff;
+}
+
+.table-employees td:nth-child(2),
+.table-salaries td:nth-child(2) {
+  background-color: #87CEEB;
+  color: #fff;
+}
+
+.table-employees td:nth-child(3),
+.table-salaries td:nth-child(3) {
+  background-color: #e6e696;
+  color: #fff;
+}
+
+.table-employees td:nth-child(4),
+.table-salaries td:nth-child(4) {
+  background-color: #d5ab9c;
+  color: #fff;
+}
+
+.table-employees tr:hover,
+.table-salaries tr:hover {
+  background-color: #f2f2f2;
+}
+
+.table-employees th:nth-child(1),
+.table-employees td:nth-child(1),
+.table-salaries th:nth-child(1),
+.table-salaries td:nth-child(1) {
+  border-left: 2px solid #000;
+}
+
+.table-employees th:nth-child(4),
+.table-employees td:nth-child(4),
+.table-salaries th:nth-child(2),
+.table-salaries td:nth-child(2) {
+  border-right: 2px solid #000;
+}
